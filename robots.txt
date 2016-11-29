@@ -1,4 +1,4 @@
-Sitemap: https://victor-shepardson.github.io/sitemapindex.xml
+Sitemap: https://victor-shepardson.github.io/blog/sitemapindex.xml
 
 User-Agent: *
 Host: victor-shepardson.github.io

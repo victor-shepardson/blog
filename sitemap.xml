@@ -6,23 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://victor-shepardson.github.io/</loc>
+  <loc>https://victor-shepardson.github.io/blog/</loc>
   <lastmod>2016-11-29T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://victor-shepardson.github.io/archive.html</loc>
+  <loc>https://victor-shepardson.github.io/blog/archive.html</loc>
+  <lastmod>2016-11-29T18:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/</loc>
   <lastmod>2016-11-29T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://victor-shepardson.github.io/categories/</loc>
+  <loc>https://victor-shepardson.github.io/blog/galleries/</loc>
   <lastmod>2016-11-29T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://victor-shepardson.github.io/galleries/</loc>
-  <lastmod>2016-11-29T18:03:00Z</lastmod>
- </url>
- <url>
-  <loc>https://victor-shepardson.github.io/listings/</loc>
+  <loc>https://victor-shepardson.github.io/blog/listings/</loc>
   <lastmod>2016-11-29T18:03:00Z</lastmod>
  </url>
 </urlset>
