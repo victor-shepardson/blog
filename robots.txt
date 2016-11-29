@@ -1,0 +1,4 @@
+Sitemap: https://victor-shepardson.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: victor-shepardson.github.io
