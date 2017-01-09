@@ -1,3 +1,14 @@
+<!--
+.. title: Making Music With No-input Mixer, SuperCollider, and Tidal
+.. slug: mixer-supercollider-tidal-music
+.. date: 2017-01-09 18:26:25 UTC-05:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
 ## No-input mixer
 
 Years ago I one of [these](http://usa.yamaha.com/products/live_sound/mixers/analog-mixers/mg102c/) cheap mixers so I could record and amplify dorm room nonsense music sessions. But at Dartmouth I had access to better recording facilities and the mixer was gathering dust. Cool dude [Carlos Dominguez](https://charlossound.wordpress.com/) had introduced me to the concept of "no-input" mixing. Normally a mixer is the middleman between an instrument or microphone and a loudspeaker or recording device. It alters and facilitates sounds, but doesn't make sound. No-input mixing is total misuse of the mixer: you plug the mixer back into itself, as its own sole input. The mixer self-oscillates and makes its own sounds. It's the same principle as an electric guitar feeding back, or plugging a bunch of effects pedals together in a loop, or how analog synthesizers work under the hood. What's funny and exciting about the no-input mixer is how rich and diverse it sounds given that it isn't supposed to sound at all. The whole point of a mixer is to have fine control over routing and EQ; even a smallish stereo mixer has endless possible configurations. And because the oscillations depend on a delicate balance of amplification, it is an enormously sensitive instrument. Playing it means moving a single knob *so slowly* to find the precise edge of chaos between two sounds; sweeping it *so quickly* to carve a tiny blip out of a squall; listening *so closely* to know when it's about to blow up. You learn the feel of a particular mixer, but it's still new every time. For some masterful no-input mixing, check out [Toshimaru Nakamura](https://en.wikipedia.org/wiki/Toshimaru_Nakamura).
