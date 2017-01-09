@@ -11,6 +11,6 @@
 
 For 2017 I resolve to **document more**. I'll be reflecting on old projects here and posting about current ones.
 
-Rather than a chronological feed of posts, I plan to have one per project which I'll update as the project progresses.
+Rather than a chronological feed of posts, I plan to have one per project which I'll update as each one progresses. Stay tuned.
 
 <!-- TEASER_END -->
