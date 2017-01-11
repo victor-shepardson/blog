@@ -10,3 +10,26 @@
 -->
 
 [GitHub](https://github.com/victor-shepardson/feature-feedback)
+
+## Video Feedback
+
+Way back in high school I read Douglas Hofstadter's [Gödel, Escher, Bach](https://archive.org/details/GEBen_201404). If you aren't familiar, I have to advise you to go read it instead of looking at my dumb blog. There are about a hundred captivating ideas in there, and just one of them is the concept of video feedback: connect a video camera to a screen, and then point it at the screen. Weird stuff happens on the screen. (Meanwhile I was learning to play the guitar, and discovering that the electro-acoustic feedback of wiggling the thing around in front of an amp is much more fun than drilling scales.)
+
+<iframe src='https://archive.org/stream/GEBen_201404/GEBen?ui=embed#page/n496/mode/1up' width='480px' height='430px' frameborder='0' ></iframe>
+
+As an undergrad, I became interested in computer graphics. (I know of two things that teach you to really see: studying the science of computer graphics, and learning to paint or draw from life.) I was especially taken with the idea of *procedural graphics*: generating images from nothing but math, as opposed to using assets made by virtually drawing (as in photoshop) or digitizing reality (as with a digital camera). Procedural graphics can translate some of the tantalizing infinites of mathematics into rich sensory experiences. In particular [this brief article](http://www.iquilezles.org/www/articles/warp/warp.htm) by Íñigo Quílez had me enthralled by the idea of turning a random number generator into an endless alien terrain.
+
+Eventually I put two and two together: you can dispense with the video camera and program a completely virtual video feedback process. This was hardly unknown in computer graphics, yet was weirdly unpopular. There's was some ideological preference for statelessness in the scene Quílez is part of, while in academic CG there tends to be focus on predictibility and utility for efficient, photorealistic rendering. Then there are fractals, which are iterated, but not open ended: you iterate to convergence, rather than letting the image evolve as in video feedback. However [Jim Crutchfield](http://csc.ucdavis.edu/~chaos/) has written about the dynamics of digital video feedback from a math/physics perspective. 2-D cellular automata like Conway's game of life can be thought of as digital video feedback, and there's a whole hobbyist community there, plus the academic artifical life community and [Stephen Wolfram](http://www.wolframscience.com/). The whole field of computational fluid dynamics is doing a similar thing with a different set of priorities! And of course video feedback shows up in fine art beginning with video artists like Nam June Paik.
+
+Finally in the fall of 2014 after encountering such cool dudes as [Sabrina Ratté](http://sabrinaratte.com/) and [Alex Dupuis](http://www.alexanderdupuis.com/) I was galvanized to get some feedback of my own going. Still blissfully ignorant of much, I started making stuff like this (more recent) doodle:
+
+<iframe width="100%" height="332" frameborder="0" src="https://www.shadertoy.com/embed/MdcSW8?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+(Incidentally [these folks](https://synesthesia.live/) licensed the above shader to use in their music-reactive visuals software Synesthesia. It looks pretty neat, though I haven't been able to mess with it myself since I don't have a Mac. Maybe take a look if you do.) Eventually this would grow into such projects as [ABSTRACT/CONCRETE](../../posts/abstract-concrete/) and [Video Synthesis With Convolutional Autoencoders](../../posts/convnet-video-feedback/). See also my [audio feedback explainer](../audio-feedback-explainer).
+
+#TODO: move above into a "video feedback explainer" page and below in "deep learning explainer" page
+
+
+## Deep Learning
+
+In spring of 2015 I took a [seminar in deep learning](http://www.cs.dartmouth.edu/~lorenzo/teaching/cs189/Archive/Spring2015/) with Lorenzo Torresani. It was one of the most exciting classes I've ever taken. I had been introduced to the field of machine learning by Lorenzo's class the previous fall, and was already riding high on the concept of solving generic problems by optimization. The idea of deep learning for *representation learning*--extending ML to more generic problems by learning to interpret raw data--was exciting on its own. I'd also been talking a lot to cool dudes [Parag Mital](http://pkmital.com/home/), and [Andy Sarroff](http://www.cs.dartmouth.edu/~sarroff/) about their work with machine learning, sound and video. And what really blew my mind about deep learning was the similarity between neural networks and audio/video feedback.
