@@ -20,6 +20,6 @@
     content: '';
 }
 </style>
-<div class=wrapper>
+<div class="wrapper">
 <iframe src="https://player.vimeo.com/video/164777442" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
