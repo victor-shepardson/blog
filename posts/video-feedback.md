@@ -21,4 +21,6 @@ Finally in the fall of 2014 after encountering such cool dudes as [Sabrina Ratt√
 
 <iframe width="100%" height="332" frameborder="0" src="https://www.shadertoy.com/embed/MdcSW8?gui=true&t=10&paused=false&muted=false" allowfullscreen></iframe>
 
-(Incidentally [these folks](https://synesthesia.live/) licensed the above shader to use in their music-reactive visuals software Synesthesia. It looks pretty neat, though I haven't been able to mess with it myself since I don't have a Mac. Maybe take a look if you do.) Eventually this would grow into such projects as [ABSTRACT/CONCRETE](../abstract-concrete/) and [Video Synthesis With Convolutional Autoencoders](../convnet-video-feedback/).
+(Incidentally [these folks](https://synesthesia.live/) licensed the above shader to use in their music-reactive visuals software Synesthesia. It looks pretty neat, though I haven't been able to mess with it myself since I don't have a Mac. Maybe take a look if you do.)
+
+Eventually this would grow into such projects as [ABSTRACT/CONCRETE](../abstract-concrete/) and [Video Synthesis With Convolutional Autoencoders](../convnet-video-feedback/) and
