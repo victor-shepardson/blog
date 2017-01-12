@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Victor's Blog</title><link>https://victor-shepardson.github.io/blog/</link><description>the personal blog of Victor Shepardson</description><atom:link href="https://victor-shepardson.github.io/blog/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 12 Jan 2017 04:42:25 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bear Cult and HOFSTADTERPILLAR</title><link>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;iframe src="https://player.vimeo.com/video/121756116" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/121756116"&gt;HOFSTADTERPILLAR by Victor Shepardson (FS35 15W)&lt;/a&gt; from &lt;a href="https://vimeo.com/user2384236"&gt;Dartmouth Film &amp;amp; Media Studies&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</guid><pubDate>Thu, 12 Jan 2017 03:46:32 GMT</pubDate></item><item><title>Video Feedback</title><link>https://victor-shepardson.github.io/blog/posts/video-feedback/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;Way back in high school I read Douglas Hofstadter's &lt;a href="https://archive.org/details/GEBen_201404"&gt;Gödel, Escher, Bach&lt;/a&gt;. If you aren't familiar, I have to advise you to go read it instead of looking at my dumb blog. There are about a hundred captivating ideas in there, and just one of them is the concept of video feedback: connect a video camera to a screen, and then point it at the screen. Weird stuff happens on the screen. (Meanwhile I was learning to play the guitar, and discovering that the electro-acoustic feedback of wiggling the thing around in front of an amp is much more fun than drilling scales.)&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Victor's Blog</title><link>https://victor-shepardson.github.io/blog/</link><description>the personal blog of Victor Shepardson</description><atom:link rel="self" type="application/rss+xml" href="https://victor-shepardson.github.io/blog/rss.xml"></atom:link><language>en</language><lastBuildDate>Thu, 12 Jan 2017 16:44:49 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bear Cult and HOFSTADTERPILLAR</title><link>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div class="video-wrapper"&gt;
+  &lt;div class="video"&gt;
+    &lt;iframe src="https://player.vimeo.com/video/121756116" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description><guid>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</guid><pubDate>Thu, 12 Jan 2017 03:46:32 GMT</pubDate></item><item><title>Video Feedback</title><link>https://victor-shepardson.github.io/blog/posts/video-feedback/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;Way back in high school I read Douglas Hofstadter's &lt;a href="https://archive.org/details/GEBen_201404"&gt;Gödel, Escher, Bach&lt;/a&gt;. If you aren't familiar, I have to advise you to go read it instead of looking at my dumb blog. There are about a hundred captivating ideas in there, and just one of them is the concept of video feedback: connect a video camera to a screen, and then point it at the screen. Weird stuff happens on the screen. (Meanwhile I was learning to play the guitar, and discovering that the electro-acoustic feedback of wiggling the thing around in front of an amp is much more fun than drilling scales.)&lt;/p&gt;
 &lt;iframe src="https://archive.org/stream/GEBen_201404/GEBen?ui=embed#page/n496/mode/1up" width="480px" height="430px" frameborder="0"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;As an undergrad, I became interested in computer graphics. (I know of two things that teach you to really see: studying the science of computer graphics, and learning to paint or draw from life.) I was especially taken with the idea of &lt;em&gt;procedural graphics&lt;/em&gt;: generating images from nothing but math, as opposed to using assets made by virtually drawing (as in photoshop) or digitizing reality (as with a digital camera). Procedural graphics can translate some of the tantalizing infinites of mathematics into rich sensory experiences! In particular &lt;a href="http://www.iquilezles.org/www/articles/warp/warp.htm"&gt;this brief article&lt;/a&gt; by Íñigo Quílez had me enthralled by the idea of turning a random number generator into an endless alien terrain.&lt;/p&gt;
@@ -22,26 +24,27 @@
 --&gt;
 
 &lt;style&gt;
-.wrapper {
- width: 100%;
- display: inline-block;
- position: relative;
-}
-.wrapper:after {
-    padding-top: 56.25%; /*16:9 ratio*/
-    display: block;
-    content: '';
-}
-.video {
-    position: absolute;
-    top: 0; bottom: 0; right: 0; left: 0;
-}
+  .video-wrapper {
+   width: 100%;
+   display: inline-block;
+   position: relative;
+  }
+  .video-wrapper:after {
+      padding-top: 56.25%; /*16:9 ratio*/
+      display: block;
+      content: '';
+  }
+  .video {
+      position: absolute;
+      top: 0; bottom: 0; right: 0; left: 0;
+  }
 &lt;/style&gt;
 
-&lt;div class="wrapper"&gt;
-&lt;div class="video"&gt;
-&lt;iframe src="https://player.vimeo.com/video/164777442" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</guid><pubDate>Thu, 12 Jan 2017 03:05:57 GMT</pubDate></item><item><title>Making Music With No-input Mixer, SuperCollider, and Tidal</title><link>https://victor-shepardson.github.io/blog/posts/mixer-supercollider-tidal-music/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;h3&gt;No-input Mixer&lt;/h3&gt;
+&lt;div class="video-wrapper"&gt;
+  &lt;div class="video"&gt;
+    &lt;iframe src="https://player.vimeo.com/video/164777442" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</guid><pubDate>Thu, 12 Jan 2017 03:05:57 GMT</pubDate></item><item><title>Making Music With No-input Mixer, SuperCollider, and Tidal</title><link>https://victor-shepardson.github.io/blog/posts/mixer-supercollider-tidal-music/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;h3&gt;No-input Mixer&lt;/h3&gt;
 &lt;p&gt;Years ago I got one of &lt;a href="http://usa.yamaha.com/products/live_sound/mixers/analog-mixers/mg102c/"&gt;these&lt;/a&gt; cheap mixers so I could record and amplify dorm room nonsense music sessions. But at Dartmouth I had access to better recording facilities and the mixer was gathering dust. Also at Dartmouth, cool dude &lt;a href="https://charlossound.wordpress.com/"&gt;Carlos Dominguez&lt;/a&gt; introduced me to the concept of "no-input" mixing. Normally a mixer is the middleman between an instrument or microphone and a loudspeaker or recording device. It alters and facilitates sounds, but doesn't make sound. No-input mixing is total misuse of the mixer: you plug the mixer back into itself, as its own sole input. The mixer self-oscillates and makes its own sounds. It's the same principle as an electric guitar feeding back, or plugging a bunch of effects pedals together in a loop, or how analog synthesizers work under the hood. What's funny and exciting about the no-input mixer is how rich and diverse it sounds given that it isn't supposed to sound at all. The whole point of a mixer is to have fine control over routing and EQ; even a smallish stereo mixer has endless possible configurations. And because the oscillations depend on a delicate balance of amplification, no-input mixer is an enormously sensitive instrument. Playing one means moving a single knob &lt;em&gt;so slowly&lt;/em&gt; to find the precise edge of chaos between two sounds; sweeping it &lt;em&gt;so quickly&lt;/em&gt; to carve a tiny blip out of a squall; listening &lt;em&gt;so closely&lt;/em&gt; to know when it's about to blow up. You learn the feel of a particular mixer, but it's still new every time. For some masterful no-input mixing, check out &lt;a href="https://en.wikipedia.org/wiki/Toshimaru_Nakamura"&gt;Toshimaru Nakamura&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As rich and surprisingly large as the space of feedback mixer sounds is, it's pretty distinctly within noise-drone-ambient world. You can make a lovely drone, you can make a wall of noise, you can make little squawking sounds, you can float through space. But I found myself yearning to hold on to one sound while searching for its perfect complement, or to condense a minute's worth of exploration into a short pattern, or to build whole stacks of sounds and rapidly switch between them. One option would be to ravenously &lt;em&gt;seek more channels&lt;/em&gt;, but lacking a bigger mixer to abuse I turned to my old friend, computers. At first I just ran the mixer into Ableton. Simple stuff like grabbing a loop while continuing to tweak the mixer, or stacking a weird noisy tone into a weird noisy chord. Once the computer's in the loop, you can also expand the mixer's vocabulary by feeding processed sound back into the mixer. Slight &lt;a href="https://en.wikipedia.org/wiki/Single-sideband_modulation"&gt;frequency shifting&lt;/a&gt; of 0.1-10 Hz and reverb are particularly fertile. "Senseless Noise feat. Jeff" is an extremely goofy example of this setup, with me twirling the knobs and cool dude Jeff Mentch playfully tickling the default Ableton percussion synth. Also there are some blippy sine waves.&lt;/p&gt;
 &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247613308&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
