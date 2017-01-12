@@ -1,8 +1,8 @@
 # blog
-a personal blog!!!
+a personal blog!!! (using the nikola site generator)
 
 source in in branch `src`, output is in branch `master`
 
-generally don't use git directly. push with `nikola github_deploy`
+to edit without nikola, checkout src and use git normally. to edit with nikola, just use `nikola github_deploy`
 
-then run `git submodule update` in `victor-shepardson.github.io/blog`
+to deploy to site, run `./update-blog.sh` in repo `victor-shepardson.github.io/blog`
