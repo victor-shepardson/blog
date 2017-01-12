@@ -8,6 +8,18 @@
 .. description:
 .. type: text
 -->
-
-<iframe src="https://player.vimeo.com/video/164777442" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/164777442">AVFB#3</a> from <a href="https://vimeo.com/victorshepardson">Victor Shepardson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<style>
+.wrapper {
+ width: 100%;
+ display: inline-block;
+ position: relative;
+}
+.wrapper:after {
+    padding-top: 56.25%; /*16:9 ratio*/
+    display: block;
+    content: '';
+}
+</style>
+<div class=wrapper>
+<iframe src="https://player.vimeo.com/video/164777442" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
