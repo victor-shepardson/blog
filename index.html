@@ -11,7 +11,7 @@
 <meta content="#dd00aa" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://victor-shepardson.github.io/blog/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/mixer-supercollider-tidal-music/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/video-feedback/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -61,7 +61,41 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/mixer-supercollider-tidal-music/" class="u-url">Making Music With No-input Mixer, SuperCollider, and Tidal</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/video-feedback/" class="u-url">Video Feedback</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Victor Shepardson
+            </span></p>
+            <p class="dateline"><a href="posts/video-feedback/" rel="bookmark"><time class="published dt-published" datetime="2017-01-11T22:08:22-05:00" title="2017-01-11 22:08">2017-01-11 22:08</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Way back in high school I read Douglas Hofstadter's <a href="https://archive.org/details/GEBen_201404">Gödel, Escher, Bach</a>. If you aren't familiar, I have to advise you to go read it instead of looking at my dumb blog. There are about a hundred captivating ideas in there, and just one of them is the concept of video feedback: connect a video camera to a screen, and then point it at the screen. Weird stuff happens on the screen. (Meanwhile I was learning to play the guitar, and discovering that the electro-acoustic feedback of wiggling the thing around in front of an amp is much more fun than drilling scales.)</p>
+<iframe src="https://archive.org/stream/GEBen_201404/GEBen?ui=embed#page/n496/mode/1up" width="480px" height="430px" frameborder="0"></iframe>
+
+<p>As an undergrad, I became interested in computer graphics. (I know of two things that teach you to really see: studying the science of computer graphics, and learning to paint or draw from life.) I was especially taken with the idea of <em>procedural graphics</em>: generating images from nothing but math, as opposed to using assets made by virtually drawing (as in photoshop) or digitizing reality (as with a digital camera). Procedural graphics can translate some of the tantalizing infinites of mathematics into rich sensory experiences. In particular <a href="http://www.iquilezles.org/www/articles/warp/warp.htm">this brief article</a> by Íñigo Quílez had me enthralled by the idea of turning a random number generator into an endless alien terrain.</p>
+<p>Eventually I put two and two together: you can dispense with the video camera and program a completely virtual video feedback process. This was hardly unknown in computer graphics, yet was weirdly unpopular. There's was some ideological preference for statelessness in the scene Quílez is part of, while in academic CG there tends to be focus on predictibility and utility for efficient, photorealistic rendering. Then there are fractals, which are iterated, but not open ended: you iterate to convergence, rather than letting the image evolve as in video feedback. However <a href="http://csc.ucdavis.edu/~chaos/">Jim Crutchfield</a> has written about the dynamics of digital video feedback from a math/physics perspective. 2-D cellular automata like Conway's game of life can be thought of as digital video feedback, and there's a whole hobbyist community there, plus the academic artifical life community and <a href="http://www.wolframscience.com/">Stephen Wolfram</a>. The whole field of computational fluid dynamics is doing a similar thing with a different set of priorities! And of course video feedback shows up in fine art beginning with video artists like Nam June Paik.</p>
+<p>Finally in the fall of 2014 after encountering such cool dudes as <a href="http://sabrinaratte.com/">Sabrina Ratté</a> and <a href="http://www.alexanderdupuis.com/">Alex Dupuis</a> I was galvanized to get some feedback of my own going. Still blissfully ignorant of much, I started making stuff like this (more recent) doodle:</p>
+<iframe width="100%" height="332" frameborder="0" src="https://www.shadertoy.com/embed/MdcSW8?gui=true&amp;t=10&amp;paused=true&amp;muted=false" allowfullscreen></iframe>
+
+<p>(Incidentally <a href="https://synesthesia.live/">these folks</a> licensed the above shader to use in their music-reactive visuals software Synesthesia. It looks pretty neat, though I haven't been able to mess with it myself since I don't have a Mac. Maybe take a look if you do.) Eventually this would grow into such projects as <a href="posts/abstract-concrete/">ABSTRACT/CONCRETE</a> and <a href="posts/convnet-video-feedback/">Video Synthesis With Convolutional Autoencoders</a>.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/abstract-concrete/" class="u-url">ABSTRACT/CONCRETE</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Victor Shepardson
+            </span></p>
+            <p class="dateline"><a href="posts/abstract-concrete/" rel="bookmark"><time class="published dt-published" datetime="2017-01-11T22:05:57-05:00" title="2017-01-11 22:05">2017-01-11 22:05</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<iframe src="https://player.vimeo.com/video/164777442" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/164777442">AVFB#3</a> from <a href="https://vimeo.com/victorshepardson">Victor Shepardson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/mixer-supercollider-tidal-music/" class="u-url">Making Music With No-input Mixer, SuperCollider, and Tidal</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Victor Shepardson
@@ -106,7 +140,12 @@
             <p class="dateline"><a href="posts/convnet-video-feedback/" rel="bookmark"><time class="published dt-published" datetime="2017-01-09T18:26:25-05:00" title="2017-01-09 18:26">2017-01-09 18:26</time></a></p>
         </div>
     </header><div class="e-content entry-content">
-    <p><a href="https://github.com/victor-shepardson/feature-feedback">GitHub</a></p>
+    <div>
+<p>Context: see <a href="posts/video-feedback">my post on video feedback</a></p>
+<p>In spring of 2015 I took a <a href="http://www.cs.dartmouth.edu/~lorenzo/teaching/cs189/Archive/Spring2015/">seminar in deep learning</a> with Lorenzo Torresani. It was one of the most exciting classes I've ever taken. I had been introduced to the field of machine learning by Lorenzo's class the previous fall, and was already riding high on the concept of solving generic problems by optimization. The idea of deep learning for <em>representation learning</em>--extending ML to more generic problems by learning to interpret raw data--was exciting on its own. I'd also been talking a lot to cool dudes <a href="http://pkmital.com/home/">Parag Mital</a>, and <a href="http://www.cs.dartmouth.edu/~sarroff/">Andy Sarroff</a> about their work with machine learning, sound and video. And what really blew my mind about deep learning was the similarity between neural networks and the audio/video feedback I'd been using to make noise. This project was my attempt to incorporate a convolutional network trained to encode images as part of a video feedback process.</p>
+<p>I really bit off more than I could chew for a seminar project: the approach I came up with demanded that I design and train my own neural network <em>and</em> re-implement the forward pass in OpenGL <em>and</em> spend time exploring the feedback behavior. I was able to train my autoencoders with some success, and I was able to make some singular multicolored nonsense. I didn't get the spectacular emergence of natural image qualities I hoped for. The next summer deep dream came out, articulating a clearly superior approach to jaw-dropping effect. I may still try to get the openFrameworks app running again and capture some video, for posterity.</p>
+<p>Here's the <a href="https://github.com/victor-shepardson/feature-feedback">GitHub</a>, which includes a <a href="https://github.com/victor-shepardson/feature-feedback/blob/master/notebooks/writeup.ipynb">writeup</a>, a <a href="https://github.com/victor-shepardson/feature-feedback/blob/master/notebooks/presentation.ipynb">jupyter notebook</a> with the autoencoder experiments in it, and the source code for an openFrameworks app which runs the process interactively.</p>
+</div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/bendy/" class="u-url">Bendy: Wavetable Automata in Max</a></h1>
         <div class="metadata">
@@ -121,7 +160,7 @@
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209732439&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 </div>
     </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/hello/" class="u-url">Hello!</a></h1>
+    </article><article class="h-entry post-micro"><header><h1 class="p-name entry-title"><a href="posts/hello/" class="u-url">Hello!</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Victor Shepardson
@@ -131,8 +170,11 @@
     </header><div class="e-content entry-content">
     <div>
 <p>For 2017 I resolve to <strong>document more</strong>. I'll be reflecting on old projects here and posting about current ones.</p>
-<p>Rather than a chronological feed of posts, I plan to have one per project which I'll update as each one progresses. Stay tuned.</p>
 <!-- TEASER_END -->
+
+<p>Things to keep in mind: why am I writing these posts? Who is the audience? As a whole, this blog should give my future self and anyone else an idea of what I've accomplished. Individually, each post should connect some interesting dots for whomever reads it. A good rule of thumb is probably: achine learning people should be able to understand a post about music, and musicians should be able to understand a post about ML. My mom should be able to read any post and get the gist. Writing concise explanations is a real challenge, but a rewarding one! But it's definitely overkill to explain what deep learning is in every related post...I should link to an explainer post or include it as a sidebar, maybe?</p>
+<p>I'd like to organize posts by project, and maybe tag them by topic. Right now the site generator is just putting them in most-recently-edited order.</p>
+<p>I am dumb and think it's funny to introduce everyone I know personally as a "cool dude". If anyone objects to being referred to this way, please contact me and provide a preferred title!</p>
 </div>
     </div>
     </article>

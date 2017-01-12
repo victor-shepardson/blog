@@ -16,7 +16,8 @@
 <meta property="og:site_name" content="Victor's Blog">
 <meta property="og:title" content="Video Synthesis With Convolutional Autoencoders">
 <meta property="og:url" content="https://victor-shepardson.github.io/blog/posts/convnet-video-feedback/">
-<meta property="og:description" content="GitHub">
+<meta property="og:description" content="Context: see my post on video feedback
+In spring of 2015 I took a seminar in deep learning with Lorenzo Torresani. It was one of the most exciting classes I've ever taken. I had been introduced to the">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-01-09T18:26:25-05:00">
 </head>
@@ -85,7 +86,12 @@
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p><a href="https://github.com/victor-shepardson/feature-feedback">GitHub</a></p>
+    <div>
+<p>Context: see <a href="../video-feedback">my post on video feedback</a></p>
+<p>In spring of 2015 I took a <a href="http://www.cs.dartmouth.edu/~lorenzo/teaching/cs189/Archive/Spring2015/">seminar in deep learning</a> with Lorenzo Torresani. It was one of the most exciting classes I've ever taken. I had been introduced to the field of machine learning by Lorenzo's class the previous fall, and was already riding high on the concept of solving generic problems by optimization. The idea of deep learning for <em>representation learning</em>--extending ML to more generic problems by learning to interpret raw data--was exciting on its own. I'd also been talking a lot to cool dudes <a href="http://pkmital.com/home/">Parag Mital</a>, and <a href="http://www.cs.dartmouth.edu/~sarroff/">Andy Sarroff</a> about their work with machine learning, sound and video. And what really blew my mind about deep learning was the similarity between neural networks and the audio/video feedback I'd been using to make noise. This project was my attempt to incorporate a convolutional network trained to encode images as part of a video feedback process.</p>
+<p>I really bit off more than I could chew for a seminar project: the approach I came up with demanded that I design and train my own neural network <em>and</em> re-implement the forward pass in OpenGL <em>and</em> spend time exploring the feedback behavior. I was able to train my autoencoders with some success, and I was able to make some singular multicolored nonsense. I didn't get the spectacular emergence of natural image qualities I hoped for. The next summer deep dream came out, articulating a clearly superior approach to jaw-dropping effect. I may still try to get the openFrameworks app running again and capture some video, for posterity.</p>
+<p>Here's the <a href="https://github.com/victor-shepardson/feature-feedback">GitHub</a>, which includes a <a href="https://github.com/victor-shepardson/feature-feedback/blob/master/notebooks/writeup.ipynb">writeup</a>, a <a href="https://github.com/victor-shepardson/feature-feedback/blob/master/notebooks/presentation.ipynb">jupyter notebook</a> with the autoencoder experiments in it, and the source code for an openFrameworks app which runs the process interactively.</p>
+</div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
