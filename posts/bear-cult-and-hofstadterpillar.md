@@ -8,5 +8,25 @@
 .. description:
 .. type: text
 -->
+<style>
+  .video-wrapper {
+   width: 100%;
+   display: inline-block;
+   position: relative;
+  }
+  .video-wrapper:after {
+      padding-top: 56.25%; /*16:9 ratio*/
+      display: block;
+      content: '';
+  }
+  .video {
+      position: absolute;
+      top: 0; bottom: 0; right: 0; left: 0;
+  }
+</style>
 
-<iframe src="https://player.vimeo.com/video/121756116" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/121756116">HOFSTADTERPILLAR by Victor Shepardson (FS35 15W)</a> from <a href="https://vimeo.com/user2384236">Dartmouth Film &amp; Media Studies</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<div class="video-wrapper">
+  <div class="video">
+    <iframe src="https://player.vimeo.com/video/121756116" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
