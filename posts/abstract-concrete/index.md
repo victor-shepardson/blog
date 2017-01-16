@@ -2,7 +2,7 @@
 .. title: ABSTRACT/CONCRETE
 .. slug: abstract-concrete
 .. date: 2017-01-11 22:05:57 UTC-05:00
-.. tags:
+.. tags: sonic, visual, audiovisual, feedback, generative, openFrameworks
 .. category:
 .. link:
 .. description:

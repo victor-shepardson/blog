@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Victor's Blog (sonic)</title><link>https://victor-shepardson.github.io/blog/</link><description></description><atom:link type="application/rss+xml" rel="self" href="https://victor-shepardson.github.io/blog/categories/sonic.xml"></atom:link><language>en</language><lastBuildDate>Mon, 16 Jan 2017 22:54:37 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bear Cult and HOFSTADTERPILLAR</title><link>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;These are two animations I made for FS35 with Jodie Mack in winter 2015.&lt;/p&gt;
+&lt;h3&gt;Bear Cult&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Bear Cult&lt;/em&gt; was inspired by a collection of Joseph Campbell's essays I found in a used book store. I was struck by a chapter entitled "Renewal Myths and Rites of the Primitive Hunters and Planters". (It was written in 1960 so I don't know how current the ideas are). Anyway, it describes two main branches of prehistoric religion: the bear cult and the cult of the fertility goddess. The fertility cult shows up in agricultural societies, the bear cult among hunters. Campbell claims that preserved arrangements of cave bear bones are evidence for the ancient roots of a bear-baiting ritual still practiced by indigenous peoples in northern Japan. In the bear-baiting ritual, a young bear is captured, raised in captivity, and then ritually tortured, killed and eaten. The bear is believed to contain the soul of a demigod which yearns to be released from its fleshy bear-prison. For Campbell, the bear cult is the coping mechanism of an animal which kills to survive but suddenly developed empathy for its prey. It's the prehistoric hunter's moral justification for killing: as a kindness and a means of contact with the numinous. The numinous is the sense of awe at contemplation of the infinite. We've all felt it, whether in a church or under the night sky: it's at the root of the religious and scientific impulses. The deep connection Campbell makes between this most sacred feeling and man's capacity for cruelty is utterly heartbreaking. (side note: &lt;em&gt;awe&lt;/em&gt; smells to me an awful lot like the notion of &lt;em&gt;intrinsic motivation&lt;/em&gt; in reinforcement learning: a positive feeling obtained by beholding and questioning the world; and the numinous smells like an overwhelming double-dose of awe)&lt;/p&gt;
+&lt;p&gt;I set out to depict a bear-baiting ritual. Not the real, specific practice Campbell describes, but the abstracted elements of a hypothetical prehistoric bear cult. The body of the bear would be made with paper drawings and cutouts, while the soul would be made with &lt;a href="https://victor-shepardson.github.io/blog/posts/video-feedback"&gt;virtual video feedback&lt;/a&gt;. These material and digital components would interact via fluorescent orange paper which would be keyed out in software. An good alternate tile might be "Mind-Body Chromakey". Originally I storyboarded a longer story including human hands and spears piercing the bear and the escape of its soul. Only the first "enter the bear" bit proved feasible for a midterm project. I'm very happy with how the bear soul material turned out. I exported the key as a binary mask and incorporated it in the feedback process, so the roiling cloud-forms conform to the geometry of the bear eyes and nose-hole. On the other hand the black-on-black paper was a terrible idea. I really needed black felt or something for the background. This project also taught me how sound influences the perception of time in film: what felt like a good visual rhythm when I was silently animating seems weirdly abbreviated with the soundtrack added. The sound was a bit rushed, but I like the general effect. It's some recordings of bear vocalizations and some carcass-mangling sounds chopped up into phase-rhythms using Max. I would love to revisit this project some day with lessons learned.&lt;/p&gt;
+&lt;div class="video-wrapper"&gt;
+  &lt;div class="video"&gt;
+    &lt;iframe src="https://player.vimeo.com/video/199104868" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;HOFSTADTERPILLAR&lt;/h3&gt;
+&lt;p&gt;This one was my final project for the course. To be continued...&lt;/p&gt;
+&lt;div class="video-wrapper"&gt;
+  &lt;div class="video"&gt;
+    &lt;iframe src="https://player.vimeo.com/video/121756116" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>aftereffects</category><category>animation</category><category>bear cult</category><category>douglas hofstadter</category><category>feedback</category><category>hofstadterpillar</category><category>jodie mack</category><category>joseph campbell</category><category>max</category><category>sonic</category><category>visual</category><guid>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</guid><pubDate>Thu, 12 Jan 2017 03:46:32 GMT</pubDate></item><item><title>ABSTRACT/CONCRETE</title><link>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: ABSTRACT/CONCRETE
+.. slug: abstract-concrete
+.. date: 2017-01-11 22:05:57 UTC-05:00
+.. tags: sonic, visual, audiovisual, feedback, generative, openFrameworks
+.. category:
+.. link:
+.. description:
+.. type: text
+--&gt;
+
+&lt;style&gt;
+  .video-wrapper {
+   width: 100%;
+   display: inline-block;
+   position: relative;
+  }
+  .video-wrapper:after {
+      padding-top: 56.25%; /*16:9 ratio*/
+      display: block;
+      content: '';
+  }
+  .video {
+      position: absolute;
+      top: 0; bottom: 0; right: 0; left: 0;
+  }
+&lt;/style&gt;
+
+&lt;div class="video-wrapper"&gt;
+  &lt;div class="video"&gt;
+    &lt;iframe src="https://player.vimeo.com/video/164777442" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>audiovisual</category><category>feedback</category><category>generative</category><category>openFrameworks</category><category>sonic</category><category>visual</category><guid>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</guid><pubDate>Thu, 12 Jan 2017 03:05:57 GMT</pubDate></item><item><title>Bendy: Wavetable Automata in Max</title><link>https://victor-shepardson.github.io/blog/posts/bendy/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;In spring of 2015 I made a synthesizer called Bendy as a seminar project. A technical description and a Max/MSP implementation can be found on &lt;a href="https://github.com/victor-shepardson/bendy"&gt;GitHub&lt;/a&gt;. Here's what is sounds like:&lt;/p&gt;
+&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209732439&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>feedback</category><category>generative</category><category>max</category><category>sonic</category><guid>https://victor-shepardson.github.io/blog/posts/bendy/</guid><pubDate>Mon, 09 Jan 2017 23:26:25 GMT</pubDate></item><item><title>Data Sonification Using a Cortical Representation of Sound</title><link>https://victor-shepardson.github.io/blog/posts/cortical-sonification/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;p&gt;&lt;a href="https://github.com/victor-shepardson/video-feedback-sonification"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description><category>audiovisual</category><category>matlab</category><category>michael casey</category><category>neuroscience</category><category>sonic</category><category>sonification</category><category>visual</category><guid>https://victor-shepardson.github.io/blog/posts/cortical-sonification/</guid><pubDate>Mon, 09 Jan 2017 23:26:25 GMT</pubDate></item></channel></rss>
