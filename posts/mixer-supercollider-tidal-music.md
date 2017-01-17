@@ -2,8 +2,8 @@
 .. title: Making Music With No-input Mixer, SuperCollider, and Tidal
 .. slug: mixer-supercollider-tidal-music
 .. date: 2017-01-09 18:26:25 UTC-05:00
-.. tags:
-.. category: sonic, music, tidal, supercollider, feedback
+.. tags: sonic, music, tidal, supercollider, feedback
+.. category:
 .. link:
 .. description:
 .. type: text
