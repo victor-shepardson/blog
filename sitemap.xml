@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/</loc>
-  <lastmod>2017-01-16T21:26:00Z</lastmod>
+  <lastmod>2017-01-17T00:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/aftereffects/</loc>
@@ -43,10 +43,6 @@
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/caffe/</loc>
-  <lastmod>2017-01-16T21:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://victor-shepardson.github.io/blog/categories/cat_sonic-music-tidal-supercollider-feedback/</loc>
   <lastmod>2017-01-16T21:26:00Z</lastmod>
  </url>
  <url>
@@ -98,6 +94,10 @@
   <lastmod>2017-01-16T21:26:00Z</lastmod>
  </url>
  <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/music/</loc>
+  <lastmod>2017-01-17T00:14:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://victor-shepardson.github.io/blog/categories/neuroscience/</loc>
   <lastmod>2017-01-16T21:26:00Z</lastmod>
  </url>
@@ -120,6 +120,14 @@
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/sonification/</loc>
   <lastmod>2017-01-16T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/supercollider/</loc>
+  <lastmod>2017-01-17T00:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/tidal/</loc>
+  <lastmod>2017-01-17T00:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/video-feedback/</loc>
