@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" vocab="http://ogp.me/ns" lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Video Synthesis With Convolutional Autoencoders | Victor's Blog</title>
-<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width">
+<title>Victor's Blog · Video Synthesis With Convolutional Autoencoders </title>
+<link href="../../assets/css/all.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#dd00aa">
-<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700%7CAbril+Fatface">
+<meta content="#dd00aa" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
 <link rel="canonical" href="https://victor-shepardson.github.io/blog/posts/convnet-video-feedback/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Victor Shepardson">
@@ -31,71 +33,48 @@ In spring of 2015 I took a seminar in deep learning with Lorenzo Torresani. It w
 <meta property="article:tag" content="video feedback">
 <meta property="article:tag" content="visual">
 </head>
-<body>
-<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+<body class="">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
-<!-- Menubar -->
+    <div class="hsidebar">
+        <div class="container sidebar-sticky">
+            <div class="sidebar-about">
+              <h1>
+                <a href="https://victor-shepardson.github.io/blog/">
+                      <h1 id="brand"><a href="https://victor-shepardson.github.io/blog/" title="Victor's Blog" rel="home">
 
-<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://victor-shepardson.github.io/blog/">
+        <span id="blog-title">Victor's Blog</span>
+    </a></h1>
 
-                <span id="blog-title">Victor's Blog</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../../categories/">Tags</a>
-                </li>
-<li>
-<a href="../../rss.xml">RSS feed</a>
+                </a>
+              </h1>
+                <p class="lead">the personal blog of Victor Shepardson</p>
 
-                
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-    <a href="index.md" id="sourcelink">Source</a>
-    </li>
-
-                
-            </ul>
+            </div>
+                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../../archive.html">Archive</a>
+        <a class="sidebar-nav-item" href="../../categories/">Tags</a>
+        <a class="sidebar-nav-item" href="../../rss.xml">RSS feed</a>
+    
+    
+    </nav><footer id="footer"><span class="copyright">
+              Contents © 2018         <a href="mailto:victor.shepardson@gmail.com">Victor Shepardson</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            </span>
+            
+            
+        </footer>
 </div>
-<!-- /.navbar-collapse -->
     </div>
-<!-- /.container -->
-</nav><!-- End of Menubar --><div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
-            
-            
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Video Synthesis With Convolutional Autoencoders</a></h1>
 
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                    Victor Shepardson
-            </span></p>
-            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2017-01-09T18:26:25-05:00" itemprop="datePublished" title="2017-01-09 18:26">2017-01-09 18:26</time></a></p>
-            
-        <p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+    <div class="content container" id="content">
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><h1 class="post-title p-name"><a href="." class="u-url">Video Synthesis With Convolutional Autoencoders</a></h1>
 
-        </div>
-        
+    <span class="post-date">
+      <time class="published dt-published" datetime="2017-01-09T18:26:25-05:00" itemprop="datePublished" title="2017-01-09 18:26">2017-01-09 18:26</time></span>
 
-    </header><div class="e-content entry-content" itemprop="articleBody text">
+    
+    
+
+    <div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p>Context: see my <a href="../video-feedback">post on video feedback</a></p>
 <p>In spring of 2015 I took a <a href="http://www.cs.dartmouth.edu/~lorenzo/teaching/cs189/Archive/Spring2015/">seminar in deep learning</a> with Lorenzo Torresani. It was one of the most exciting classes I've ever taken. I had been introduced to the field of machine learning by Lorenzo's class the previous fall, and was already riding high on the concept of solving generic problems by optimization. The idea of deep learning for <em>representation learning</em>--extending ML to more generic problems by learning to interpret raw data--was exciting on its own. I'd also been talking a lot to cool dudes <a href="http://pkmital.com/home/">Parag Mital</a>, and <a href="http://www.cs.dartmouth.edu/~sarroff/">Andy Sarroff</a> about their work with machine learning, sound and video. And what really blew my mind about deep learning was the similarity between neural networks and the audio/video feedback I'd been using to make noise. This project was my attempt to incorporate a convolutional network trained to encode images as part of a video feedback process.</p>
@@ -106,39 +85,41 @@ In spring of 2015 I took a seminar in deep learning with Lorenzo Torresani. It w
 <p>A few months later deep dream came out. Deep dream does a similar thing: it iteratively alters an image using a pre-trained CNN to manifest natural image qualities. The trick to deep dream is that the mechanism is the same as training the network, only turned upside down to optimize inputs instead of parameters. Vanilla deep dream converges, but it's simple to make a <a href="https://www.youtube.com/watch?v=IREsx-xWQ0g">dynamic version</a> by incorporating infinite zoom or similar. It's funny how I had the right idea about moving information up and down a hierarchy of abstraction, but failed to realize that backpropagation could do exactly that!</p>
 </div>
     </div>
-    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
-<li><a class="tag p-category" href="../../categories/autoencoder/" rel="tag">autoencoder</a></li>
-            <li><a class="tag p-category" href="../../categories/caffe/" rel="tag">caffe</a></li>
-            <li><a class="tag p-category" href="../../categories/deep-learning/" rel="tag">deep learning</a></li>
-            <li><a class="tag p-category" href="../../categories/lorenzo-torresani/" rel="tag">lorenzo torresani</a></li>
-            <li><a class="tag p-category" href="../../categories/machine-learning/" rel="tag">machine learning</a></li>
-            <li><a class="tag p-category" href="../../categories/openframeworks/" rel="tag">openFrameworks</a></li>
-            <li><a class="tag p-category" href="../../categories/recurrent/" rel="tag">recurrent</a></li>
-            <li><a class="tag p-category" href="../../categories/video-feedback/" rel="tag">video feedback</a></li>
-            <li><a class="tag p-category" href="../../categories/visual/" rel="tag">visual</a></li>
-        </ul>
-<ul class="pager hidden-print">
-<li class="previous">
-                <a href="../cortical-sonification/" rel="prev" title="Data Sonification Using a Cortical Representation of Sound">Previous post</a>
-            </li>
-            <li class="next">
-                <a href="../bendy/" rel="next" title="Bendy: Wavetable Automata in Max">Next post</a>
-            </li>
-        </ul></nav></aside></article>
-</div>
-        <!--End of body content-->
+    <aside class="postpromonav"><nav><p itemprop="keywords" class="tags">
+            <span class="tag"><a class="p-category" href="../../categories/autoencoder/" rel="tag">autoencoder</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/caffe/" rel="tag">caffe</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/deep-learning/" rel="tag">deep learning</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/lorenzo-torresani/" rel="tag">lorenzo torresani</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/machine-learning/" rel="tag">machine learning</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/openframeworks/" rel="tag">openFrameworks</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/recurrent/" rel="tag">recurrent</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/video-feedback/" rel="tag">video feedback</a></span>
+            <span class="tag"><a class="p-category" href="../../categories/visual/" rel="tag">visual</a></span>
+      </p>
 
-        <footer id="footer">
-            Contents © 2018         <a href="mailto:victor.shepardson@gmail.com">Victor Shepardson</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </footer>
-</div>
-</div>
+            <div class="pager hidden-print pagination">
+
+            <span class="previous pagination-item older">
+                <a href="../cortical-sonification/" rel="prev" title="Data Sonification Using a Cortical Representation of Sound">
+                Previous post
+                </a>
+            </span>
 
 
-            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
-    moment.locale("en");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates -->
+            <span class="next pagination-item newer">
+                <a href="../bendy/" rel="next" title="Bendy: Wavetable Automata in Max">
+Next post
+              </a>
+            </span>
+
+        </div>
+
+    </nav></aside></article>
+</div>
+
+    
+    
+        
+
 </body>
 </html>
