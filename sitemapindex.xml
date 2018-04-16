@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/aftereffects.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/animation.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/audiovisual.xml</loc>
@@ -23,7 +23,7 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/bear-cult.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/caffe.xml</loc>
@@ -35,11 +35,11 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/douglas-hofstadter.xml</loc>
-  <lastmod>2018-04-16T18:41:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/feedback.xml</loc>
-  <lastmod>2018-04-16T18:41:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/generative.xml</loc>
@@ -47,15 +47,15 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/hofstadterpillar.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/jodie-mack.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/joseph-campbell.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/lorenzo-torresani.xml</loc>
@@ -71,7 +71,7 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/max.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/michael-casey.xml</loc>
@@ -90,6 +90,10 @@
   <lastmod>2018-04-16T18:04:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://victor-shepardson.github.io/blog/categories/phasing.xml</loc>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/recurrent.xml</loc>
   <lastmod>2018-04-16T18:04:00Z</lastmod>
  </sitemap>
@@ -99,15 +103,23 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/sonic.xml</loc>
-  <lastmod>2018-04-16T18:04:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/sonification.xml</loc>
   <lastmod>2018-04-16T18:04:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://victor-shepardson.github.io/blog/categories/steve-reich.xml</loc>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/supercollider.xml</loc>
   <lastmod>2018-04-16T18:04:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://victor-shepardson.github.io/blog/categories/tape-music.xml</loc>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/tidal.xml</loc>
@@ -119,14 +131,14 @@
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/categories/visual.xml</loc>
-  <lastmod>2018-04-16T18:41:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/rss.xml</loc>
-  <lastmod>2018-04-16T18:43:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://victor-shepardson.github.io/blog/sitemap.xml</loc>
-  <lastmod>2018-04-16T18:43:00Z</lastmod>
+  <lastmod>2018-04-16T20:20:00Z</lastmod>
  </sitemap>
 </sitemapindex>
