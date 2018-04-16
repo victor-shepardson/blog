@@ -481,112 +481,13 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: """<style>
-    body {
-      color: #ddd;
-      background-color: #323;
-    }
-
-    a {
-      color: #9ad;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: #eee;
-    }
-
-    strong {
-      color: #dfdfdf;
-    }
-
-    code {
-      padding: .25em .33em .1em .33em;
-      font-size: 80%;
-      color: #000;
-      background-color: #b0a3b0;
-      border-radius: 2px;
-    }
-
-    pre {
-      background-color: #b0a3b0;
-    }
-
-    ::-moz-selection { color: #000; background: #fff}
-    ::selection { color: #000; }
-
-    blockquote {
-      color: #bbb;
-    }
-
-    .post-title a {
-      color: #9ad;
-    }
-
-    .post-date {
-      display: block;
-      margin-top: -0.75rem;
-      margin-bottom: 0.75rem;
-      color: #767;
-      font-size: 90%;
-    }
-
-    .pagination {
-      color: #767;
-    }
-
-    .pagination-item {
-      padding: .5em;
-      border: 1px solid #767;
-    }
-
-    .tags {
-      text-align: left;
-      border: 0px dotted #eee;
-    }
-
-    .tag {
-      display: inline-block;
-      padding-top: .05em;
-      padding-bottom: 0em;
-      padding-left: .5em;
-      padding-right: .5em;
-      margin: 0px;
-      border: 0px solid #ddd;
-      background: #545;
-      border-radius: 2px;
-      font-size: smaller;
-    }
-
-    .tag:hover {
-      background-color: #323;
-    }
-
-    div.hsidebar, .hsidebar {
-      background-color: #212;
-    }
-
-    .sidebar-about h1 {
-      font-family: "Abril Fatface", serif;
-      font-size: 2.75rem;
-    }
-
-    .sidebar-about p {
-      color: #878;
-      line-height: 1.33;
-      margin-bottom: 1em;
-      margin-top: 1em
-    }
-
-    .copyright{
-      color: #878
-    }
-    </style>"""
+    DEFAULT_LANG: ''
 }
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
@@ -892,7 +793,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # vs
 # xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
-# CODE_COLOR_SCHEME = 'default'
+# CODE_COLOR_SCHEME = 'paraiso_dark'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -1236,7 +1137,106 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = """<style>
+body {
+  color: #ddd;
+  background-color: #323;
+}
+
+a {
+  color: #9ad;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #eee;
+}
+
+strong {
+  color: #dfdfdf;
+}
+
+code {
+  padding: .25em .33em .1em .33em;
+  font-size: 80%;
+  color: #000;
+  background-color: #b0a3b0;
+  border-radius: 2px;
+}
+
+pre {
+  background-color: #b0a3b0;
+}
+
+::-moz-selection { color: #000; background: #fff}
+::selection { color: #000; }
+
+blockquote {
+  color: #bbb;
+}
+
+.post-title a {
+  color: #9ad;
+}
+
+.post-date {
+  display: block;
+  margin-top: -0.75rem;
+  margin-bottom: 0.75rem;
+  color: #767;
+  font-size: 90%;
+}
+
+.pagination {
+  color: #767;
+}
+
+.pagination-item {
+  padding: .5em;
+  border: 1px solid #767;
+}
+
+.tags {
+  text-align: left;
+  border: 0px dotted #eee;
+}
+
+.tag {
+  display: inline-block;
+  padding-top: .05em;
+  padding-bottom: 0em;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 0px;
+  border: 0px solid #ddd;
+  background: #545;
+  border-radius: 2px;
+  font-size: smaller;
+}
+
+.tag:hover {
+  background-color: #323;
+}
+
+div.hsidebar, .hsidebar {
+  background-color: #212;
+}
+
+.sidebar-about h1 {
+  font-family: "Abril Fatface", serif;
+  font-size: 2.75rem;
+}
+
+.sidebar-about p {
+  color: #878;
+  line-height: 1.33;
+  margin-bottom: 1em;
+  margin-top: 1em
+}
+
+.copyright{
+  color: #878
+}
+</style>"""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
