@@ -145,7 +145,7 @@ THEME = "hyde"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#dd00aa'
+THEME_COLOR = '#323'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
