@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Victor Shepardson"  # (translatable)
-BLOG_TITLE = "Victor's Blog"  # (translatable)
+BLOG_TITLE = "Project Blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://victor-shepardson.github.io/blog/"
@@ -26,7 +26,7 @@ SITE_URL = "https://victor-shepardson.github.io/blog/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://victor-shepardson.github.io/"
 BLOG_EMAIL = "victor.shepardson@gmail.com"
-BLOG_DESCRIPTION = "the personal blog of Victor Shepardson"  # (translatable)
+BLOG_DESCRIPTION = "a hum in the infernal dark below the pooling sun"  # (translatable)
 
 # Nikola is multilingual!
 #
