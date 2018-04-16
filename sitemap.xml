@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://victor-shepardson.github.io/blog/</loc>
-  <lastmod>2018-04-15T20:47:00Z</lastmod>
+  <lastmod>2018-04-16T17:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/2017/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/archive.html</loc>
-  <lastmod>2018-04-15T23:40:00Z</lastmod>
+  <lastmod>2018-04-16T17:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/</loc>
@@ -136,6 +136,10 @@
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/visual/</loc>
   <lastmod>2018-04-15T20:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/pages/video-feedback/</loc>
+  <lastmod>2018-04-16T17:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</loc>
