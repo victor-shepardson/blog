@@ -141,7 +141,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "hyde"
+THEME = "modifhyde" # as of now this just changes fonts from original hyde -- rest of CSS inlined below
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -1138,7 +1138,6 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
- <link href="https://fonts.googleapis.com/css?family=Lato:900|Open+Sans:800" rel="stylesheet">
 <style>
 body {
   color: #ddd;
