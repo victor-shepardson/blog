@@ -26,7 +26,7 @@ SITE_URL = "https://victor-shepardson.github.io/blog/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://victor-shepardson.github.io/"
 BLOG_EMAIL = "victor.shepardson@gmail.com"
-BLOG_DESCRIPTION = "a humming knot of infernal dark growing in the pooling sun"  # (translatable)
+BLOG_DESCRIPTION = "an infernal knotted dark hums in the pooling sun"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -1137,7 +1137,9 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = """<style>
+EXTRA_HEAD_DATA = """
+ <link href="https://fonts.googleapis.com/css?family=Lato:900|Open+Sans:800" rel="stylesheet">
+<style>
 body {
   color: #ddd;
   background-color: #323;
@@ -1176,6 +1178,7 @@ blockquote {
 
 .post-title a {
   color: #9ad;
+  font-family: "Lato"
 }
 
 .post-date {
@@ -1222,8 +1225,9 @@ div.hsidebar, .hsidebar {
 }
 
 .sidebar-about h1 {
-  font-family: "Abril Fatface", serif;
+  font-family: "Lato", serif;
   font-size: 2.75rem;
+  color: #eee;
 }
 
 .sidebar-about p {
