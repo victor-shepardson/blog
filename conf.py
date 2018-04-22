@@ -26,7 +26,7 @@ SITE_URL = "https://victor-shepardson.github.io/blog/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://victor-shepardson.github.io/"
 BLOG_EMAIL = "victor.shepardson@gmail.com"
-BLOG_DESCRIPTION = "an infernal knotted dark hums in the pooling sun"  # (translatable)
+BLOG_DESCRIPTION = "> infernal knotted dark hums under pooling sun"  # (translatable)
 
 # Nikola is multilingual!
 #
