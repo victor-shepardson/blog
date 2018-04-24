@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>~/blog (Posts about feedback)</title><link>https://victor-shepardson.github.io/blog/</link><description></description><atom:link href="https://victor-shepardson.github.io/blog/categories/feedback.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 24 Apr 2018 03:15:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bear Cult and HOFSTADTERPILLAR</title><link>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;These are two animations I made for FS35 with Jodie Mack in winter 2015.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>~/blog (Posts about feedback)</title><link>https://victor-shepardson.github.io/blog/</link><description></description><atom:link href="https://victor-shepardson.github.io/blog/categories/feedback.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 24 Apr 2018 03:27:30 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bear Cult and HOFSTADTERPILLAR</title><link>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;p&gt;These are two animations I made for FS35 with Jodie Mack in winter 2015.&lt;/p&gt;
 &lt;h3&gt;Bear Cult&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Bear Cult&lt;/em&gt; was inspired by a collection of Joseph Campbell's essays I found in a used book store, specifically one entitled "Renewal Myths and Rites of the Primitive Hunters and Planters". It's about the prehistoric origins of myth. In Campbell's telling, the purpose of myth is to conquer death. Campbell cites preserved arrangements of cave bear bones as evidence for the ancient roots of a bear-baiting ritual still practiced by indigenous peoples in northern Japan. In the bear-baiting ritual, a young bear is captured, raised in captivity, and then ritually tormented, killed and eaten. The bear is believed to contain the soul of a demigod which yearns to be released from its fleshy bear-prison. For Campbell, this is the coping mechanism of an animal which kills to survive but understands death. It's the hunter's moral justification for killing: death isn't terminal, killing is a kindness. Ritualized death is a point of contact with the numinous; the fear of death is transmuted to awe. I found the deep connection Campbell makes between this sacred feeling and human capacity for cruelty heartbreaking.&lt;/p&gt;
 &lt;p&gt;I decided to depict a bear-baiting ritual. Not the specific cultural practice Campbell recounts, but the abstracted elements of a hypothetical prehistoric bear cult. The body of the bear would be made by hand with paper drawings and cutouts, while the soul would be made in software with &lt;a href="https://victor-shepardson.github.io/blog/posts/video-feedback"&gt;virtual video feedback&lt;/a&gt;. These material and digital components would interact via fluorescent orange paper which could be keyed out in video editing software. A possible alternate title: "Mind-Body Chromakey". Originally I had storyboarded a longer narrative including human hands and spears piercing the bear and the escape of its soul, but only part proved feasible in the time I had.&lt;/p&gt;
@@ -26,17 +26,18 @@
 
 &lt;iframe width="100%" height="256" frameborder="0" src="https://www.shadertoy.com/embed/lsBcRK?gui=true&amp;amp;t=10&amp;amp;paused=true&amp;amp;muted=false" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;A few other people working with this kind of stuff:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://sabrinaratte.com/"&gt;Sabrina Ratté&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://alexanderdupuis.com/"&gt;Alex Dupuis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pixlpa.com/"&gt;Andrew Benson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/Flexi23"&gt;Felix Woitzel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;A few other things which resemble digital video feedback:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2D Cellular automata like &lt;a href="http://golly.sourceforge.net/"&gt;Conway's game of life&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Finite element physical simulations of fluids and &lt;a href="https://pmneila.github.io/jsexp/grayscott/"&gt;reaction-diffusion systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few other people working with this kind of stuff:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sabrinaratte.com/"&gt;Sabrina Ratté&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://alexanderdupuis.com/"&gt;Alex Dupuis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/cornusammonis"&gt;Cornus Ammonis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pixlpa.com/"&gt;Andrew Benson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Flexi23"&gt;Felix Woitzel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I just can't stay away. See projects such as &lt;a href="https://victor-shepardson.github.io/blog/posts/abstract-concrete/"&gt;ABSTRACT/CONCRETE&lt;/a&gt;, &lt;a href="https://victor-shepardson.github.io/blog/posts/convnet-video-feedback/"&gt;Video Synthesis With Convolutional Autoencoders&lt;/a&gt; and &lt;a href="https://victor-shepardson.github.io/blog/posts/cortical-sonification"&gt;Data Sonification Using a Cortical Representation of Sound&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>feedback</category><category>generative</category><category>shader</category><category>video</category><category>visual</category><guid>https://victor-shepardson.github.io/blog/posts/video-feedback/</guid><pubDate>Thu, 12 Jan 2017 03:08:22 GMT</pubDate></item><item><title>ABSTRACT/CONCRETE</title><link>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</link><dc:creator>Victor Shepardson</dc:creator><description>&lt;div&gt;&lt;!--
 .. title: ABSTRACT/CONCRETE
