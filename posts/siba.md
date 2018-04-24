@@ -1,7 +1,7 @@
 <!--
 .. title: SIBA I|II|III
 .. slug: SIBA
-.. date: 2017-01-09 18:26:25 UTC-05:00
+.. date: 2018-04-15
 .. tags: sonic, max, phasing, tape music, steve reich
 .. category:
 .. link:

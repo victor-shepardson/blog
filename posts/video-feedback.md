@@ -19,16 +19,17 @@ You can put a fragment shader into feedback just like a video camera. Pixels go 
 <iframe width="100%" height="256" frameborder="0" src="https://www.shadertoy.com/embed/lt2yz3?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 <iframe width="100%" height="256" frameborder="0" src="https://www.shadertoy.com/embed/lsBcRK?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
-A few other people working with this kind of stuff:
-
-- [Sabrina Ratté](http://sabrinaratte.com/)
-- [Alex Dupuis](http://alexanderdupuis.com/)
-- [Andrew Benson](https://pixlpa.com/)
-- [Felix Woitzel](https://twitter.com/Flexi23)
-
 A few other things which resemble digital video feedback:
 
 - 2D Cellular automata like [Conway's game of life](http://golly.sourceforge.net/)
 - Finite element physical simulations of fluids and [reaction-diffusion systems](https://pmneila.github.io/jsexp/grayscott/)
+
+A few other people working with this kind of stuff:
+
+- [Sabrina Ratté](http://sabrinaratte.com/)
+- [Alex Dupuis](http://alexanderdupuis.com/)
+- [Cornus Ammonis](https://twitter.com/cornusammonis)
+- [Andrew Benson](https://pixlpa.com/)
+- [Felix Woitzel](https://twitter.com/Flexi23)
 
 I just can't stay away. See projects such as [ABSTRACT/CONCRETE](../abstract-concrete/), [Video Synthesis With Convolutional Autoencoders](../convnet-video-feedback/) and [Data Sonification Using a Cortical Representation of Sound](../cortical-sonification).
