@@ -1,7 +1,7 @@
 <!--
 .. title: Bear Cult and HOFSTADTERPILLAR
 .. slug: bear-cult-and-hofstadterpillar
-.. date: 2017-01-11 22:46:32 UTC-05:00
+.. date: 2018-04-19
 .. tags: animation, visual, sonic, joseph campbell, douglas hofstadter, jodie mack, aftereffects, bear cult, hofstadterpillar, feedback, max
 .. category:
 .. link:
