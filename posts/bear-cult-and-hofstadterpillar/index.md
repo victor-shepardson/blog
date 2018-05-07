@@ -45,13 +45,9 @@ This project taught a lesson about how sound influences the perception of time i
 
 ## HOFSTADTERPILLAR
 
-This was an attempt to materialize one of Hofstadter's *strange loops* by drawing. Drawing is sort of already this: a continuous act of abstraction and reification, the recognition and construction of forms among materials.
+*HOFSTADTERPILLAR* is a many-looped negotiation between rules, materials and intuition, an effort to explore Hofstadter's idea of [strange loop](https://en.wikipedia.org/wiki/Strange_loop) by drawing.
 
-Animating by hand can be seen as another sort of [image feedback loop](../video-feedback); each frame is a function of previous frames, visible beneath transparent cels. I developed loose sets of rules to draw by, of the type "a silver line extends and curves more each frame". Other rules emerge from the materials; the paint markers pool and smear when the next cels is placed on top.
-
-There are also loops in the sense of a seamlessly repeating segment of footage. I used the *maximum cycle* technique of drawing new material into the same set of frames each go-round to construct rich and evolving loops.
-
-So *HOFSTADTERPILLAR* is a many-looped negotiation between rules, materials and intuition. The sound is yet another set of loops, a Max doodle with chaotic noise generators stimulating banks of tuned filters.
+Drawing is an act of alternating abstraction and reification, recognition and construction of forms among materials. I draw, I see what I have drawn, I draw more. Animating by hand can be seen as a sort of [image feedback loop](../video-feedback); each frame is drawn with reference to previous frames, which are visible beneath transparent cels. I developed loose sets of rules to draw by, of the type "a silver line extends and curves more each frame". Other rules emerge from the materials; paint markers pool and smear when the next cel is placed on top. I used the "maximum cycle" technique of repeatedly drawing new material into the same set of frames to construct rich and evolving loops. The sound is another set of feedback loops, a Max doodle with chaotic noise generators stimulating banks of tuned filters.
 
 <div class="video-wrapper">
   <div class="video">
