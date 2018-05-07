@@ -26,7 +26,7 @@ SITE_URL = "https://victor-shepardson.github.io/blog/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://victor-shepardson.github.io/"
 BLOG_EMAIL = "victor.shepardson@gmail.com"
-BLOG_DESCRIPTION = "> infernal knotted dark hums under pooling sun"  # (translatable)
+BLOG_DESCRIPTION = "> infernal knotted dark humming sunlight" # (translatable)
 
 # Nikola is multilingual!
 #
@@ -134,14 +134,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
+        ("../", "~"),
+        ("/archive.html", "All Posts"),
         ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        # ("/rss.xml", "RSS feed"),
     ),
 }
 
 # Name of the theme to use.
-THEME = "modifhyde" # as of now this just changes fonts from original hyde -- rest of CSS inlined below
+THEME = "modifhyde" # as of 5/2018 this just changes fonts from original hyde -- rest of CSS inlined below
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
