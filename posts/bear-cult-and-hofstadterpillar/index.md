@@ -45,7 +45,13 @@ This project taught a lesson about how sound influences the perception of time i
 
 ## HOFSTADTERPILLAR
 
-This one was my final project for the course. To be continued...
+This was an attempt to materialize one of Hofstadter's *strange loops* by drawing. Drawing is sort of already this: a continuous act of abstraction and reification, the recognition and construction of forms among materials.
+
+Animating by hand can be seen as another sort of [image feedback loop](../video-feedback); each frame is a function of previous frames, visible beneath transparent cels. I developed loose sets of rules to draw by, of the type "a silver line extends and curves more each frame". Other rules emerge from the materials; the paint markers pool and smear when the next cels is placed on top.
+
+There are also loops in the sense of a seamlessly repeating segment of footage. I used the *maximum cycle* technique of drawing new material into the same set of frames each go-round to construct rich and evolving loops.
+
+So *HOFSTADTERPILLAR* is a many-looped negotiation between rules, materials and intuition. The sound is yet another set of loops, a Max doodle with chaotic noise generators stimulating banks of tuned filters.
 
 <div class="video-wrapper">
   <div class="video">

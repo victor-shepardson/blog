@@ -4,7 +4,7 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 " vocab="http://ogp.me/ns" lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="&gt; infernal knotted dark hums under pooling sun">
+<meta name="description" content="&gt; infernal knotted dark humming sunlight">
 <meta name="viewport" content="width=device-width">
 <title>~/blog</title>
 <link href="assets/css/all.css" rel="stylesheet" type="text/css">
@@ -116,7 +116,7 @@ div.hsidebar, .hsidebar {
   color: #878
 }
 </style>
-<link rel="prefetch" href="posts/bear-cult-and-hofstadterpillar/" type="text/html">
+<link rel="prefetch" href="posts/reproducing-alpha-gan/" type="text/html">
 </head>
 <body class="">
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -133,12 +133,12 @@ div.hsidebar, .hsidebar {
 
                 </a>
               </h1>
-                <p class="lead">&gt; infernal knotted dark hums under pooling sun</p>
+                <p class="lead">&gt; infernal knotted dark humming sunlight</p>
 
             </div>
-                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="archive.html">Archive</a>
+                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href=".">~</a>
+        <a class="sidebar-nav-item" href="archive.html">All Posts</a>
         <a class="sidebar-nav-item" href="categories/">Tags</a>
-        <a class="sidebar-nav-item" href="rss.xml">RSS feed</a>
     
     
     </nav><footer id="footer"><span class="copyright">
@@ -153,7 +153,29 @@ div.hsidebar, .hsidebar {
     <div class="content container" id="content">
     
 <div class="post">
-    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/bear-cult-and-hofstadterpillar/" class="u-url">Bear Cult and HOFSTADTERPILLAR</a></h1>
+    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/reproducing-alpha-gan/" class="u-url">Reproducing α-GAN</a></h1>
+        <div class="metadata">
+            <span class="post-date dateline"><time class="published dt-published" datetime="2018-05-06T19:36:51-04:00" title="2018-05-06 19:36">2018-05-06 19:36</time></span>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<!-- Generative Adversarial Networks or *GANs* are one the most exciting ideas to emerge from the deep learning boom.
+
+Generally speaking, generation seems hard compared to classification. Think of images -- you can tell if an image has a bear in it. But drawing a convincing bear of your own is more difficult. To *classify* images as bear/non-bear is easy, to *generate* bears is hard. And indeed this is true for computers; feed a large neural network enough labeled images and it will be able to label new ones for you fairly well. But the best methods for generating original images will give you bizarre mutants or vague blurs.
+
+GANs use two networks to transmute generation into classification. A *generator* (G) network turns random codes into images, and a *discriminator* (D) network classifies images as either real or generated. Each network provides an objective for the other -- G tries to fool D while the D learns from data to stay one step ahead. G and D can be any differentiable neural network, so G can be trained by backpropagation through D. In limited domains, this works [spooky good](https://www.youtube.com/watch?v=G06dEcZ-QTg&t=1m25s).
+
+Ideally, a GAN gives you a dense code space from which you can sample random points on the data manifold. You can even take any two points in the code space and interpolate them to morph between images. Theoretically, any real (non-generated) image should have a corresponding point in the code space, but how do we find that point?
+
+This is what Rosca et al. tackle in [Variational Approaches for Auto-Encoding
+Generative Adversarial Networks](https://arxiv.org/abs/1706.04987) -->
+
+<p>I implemented Rosca, Mihaela, et al. <a href="https://arxiv.org/abs/1706.04987">"Variational Approaches for Auto-Encoding
+Generative Adversarial Networks"</a> using Pytorch. It's a modular implementation -- plug in any torch modules as encoder, generator, discriminator and code discriminator.</p>
+<p>On <a href="https://github.com/victor-shepardson/alpha-GAN">GitHub</a></p>
+</div>
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/bear-cult-and-hofstadterpillar/" class="u-url">Bear Cult and HOFSTADTERPILLAR</a></h1>
         <div class="metadata">
             <span class="post-date dateline"><time class="published dt-published" datetime="2018-04-19T00:00:00-04:00" title="2018-04-19 00:00">2018-04-19 00:00</time></span>
         </div>
@@ -172,7 +194,10 @@ div.hsidebar, .hsidebar {
 </div>
 
 <h3>HOFSTADTERPILLAR</h3>
-<p>This one was my final project for the course. To be continued...</p>
+<p>This was an attempt to materialize one of Hofstadter's <em>strange loops</em> by drawing. Drawing is sort of already this: a continuous act of abstraction and reification, the recognition and construction of forms among materials.</p>
+<p>Animating by hand can be seen as another sort of <a href="posts/video-feedback">image feedback loop</a>; each frame is a function of previous frames, visible beneath transparent cels. I developed loose sets of rules to draw by, of the type "a silver line extends and curves more each frame". Other rules emerge from the materials; the paint markers pool and smear when the next cels is placed on top.</p>
+<p>There are also loops in the sense of a seamlessly repeating segment of footage. I used the <em>maximum cycle</em> technique of drawing new material into the same set of frames each go-round to construct rich and evolving loops.</p>
+<p>So <em>HOFSTADTERPILLAR</em> is a many-looped negotiation between rules, materials and intuition. The sound is yet another set of loops, a Max doodle with chaotic noise generators stimulating banks of tuned filters.</p>
 <div class="video-wrapper">
   <div class="video">
     <iframe src="https://player.vimeo.com/video/121756116" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -197,7 +222,7 @@ div.hsidebar, .hsidebar {
     </header><div class="e-content entry-content">
     <div>
 <p>Douglas Hofstadter's <a href="https://archive.org/details/GEBen_201404">Gödel, Escher, Bach</a> contains about a hundred captivating ideas, and just one of them is the concept of video feedback: connect a video camera to a screen, and then point it at the screen. Weird stuff happens on the screen as light is projected though the air, captured by the camera and circled back to the screen, mutating each time. Zoom out to get a infinite hall of mirrors effect, zoom in to get kaleidoscopic pulsations, loosen the focus to get bubbling slime.</p>
-<p>As an undergrad, I became interested in computer graphics. Particularly, the idea of <em>procedural graphics</em>: generating images from nothing but math, as opposed to using assets made by virtually drawing (as with photoshop) or digitizing reality (as with a digital camera). Procedural graphics can translate some of the tantalizing infinites of mathematics into rich sensory experiences! <a href="http://www.iquilezles.org/www/articles/warp/warp.htm">A brief article</a> by Íñigo Quílez introduced me to the idea of turning a random number generator into an endless alien terrain. One popular way to do this is with <em>fragment shaders</em>, specialized programs for doing pixel-by-pixel graphics with the GPUs found in most computers. For more than a few examples, see <a href="https://www.shadertoy.com/">Shadertoy</a>.  </p>
+<p>During college I became interested in computer graphics. Particularly, the idea of <em>procedural graphics</em>: producing images with only code, as opposed to virtually drawing (as with photoshop) or digitizing reality (as with a digital camera). Procedural graphics can translate some of the tantalizing infinites of mathematics into rich sensory experiences! <a href="http://www.iquilezles.org/www/articles/warp/warp.htm">A brief article</a> by Íñigo Quílez introduced me to the idea of turning a random number generator into an endless alien terrain. One popular way to do this is with <em>fragment shaders</em>, specialized programs for doing pixel-by-pixel graphics with the GPUs found in most computers. For more than a few examples, see <a href="https://www.shadertoy.com/">Shadertoy</a>.  </p>
 <p>You can put a fragment shader into feedback just like a video camera. Pixels go in, pixels come out, pixels go back in 60 times per second. The shader determines how colors mutate and interact with nearby colors each time. Here are a few of mine:</p>
 <iframe width="100%" height="256" frameborder="0" src="https://www.shadertoy.com/embed/4d2BRm?gui=true&amp;t=10&amp;paused=true&amp;muted=false" allowfullscreen></iframe>
 
