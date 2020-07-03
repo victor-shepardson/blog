@@ -134,7 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("victor-shepardson.github.io", "~"),
+        ("https://victor-shepardson.github.io", "~"),
         ("/archive.html", "All Posts"),
         ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
