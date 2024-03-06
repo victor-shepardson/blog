@@ -13,4 +13,4 @@
 
 <!-- https://youtu.be/d0RMUqcbhmQ?t=8639 -->
 
-<iframe width="921" height="726" src="https://www.youtube.com/embed/d0RMUqcbhmQ?t=8639" title="AIMC 2023 Concert 3 – Algorave" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="921" height="726" src="https://www.youtube.com/embed/d0RMUqcbhmQ?start=8639" title="AIMC 2023 Concert 3 – Algorave" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
