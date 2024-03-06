@@ -1,7 +1,7 @@
 <!--
 .. title: Intelligent Instruments Lab
 .. slug: intelligent-instruments
-.. date: 2024-03-06
+.. date: 2024-03-04
 .. tags: 
 .. category:
 .. link:

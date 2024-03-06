@@ -1,7 +1,7 @@
 <!--
 .. title: Deviant Chain (2019)
 .. slug: deviant-chain
-.. date: 2024-03-06
+.. date: 2024-03-02
 .. tags:
 .. category:
 .. link:
@@ -32,8 +32,8 @@ At this time, the [WaveNet demo](https://deepmind.google/discover/blog/wavenet-a
 I also developed a small glyph generator which was used in some of the videos -- this took in sounds, extracted features with some machine listening algorithms, and then mapped those features to a set of curves and strokes and stored them as 3D mesh files. 
 I traveled to Oslo to install Deviant Chain, setting up the video players and cueing system. I was pretty happy with the results -- it was genuinely spooky working on it with just a few of us in the empty bank basement at night.
 
-<div class="video-wrapper">
+<!-- <div class="video-wrapper">
   <div class="video">
     <iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
-</div>
+</div> -->

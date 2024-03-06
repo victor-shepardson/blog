@@ -116,7 +116,7 @@ div.hsidebar, .hsidebar {
   color: #878
 }
 </style>
-<link rel="prefetch" href="posts/deviant-chain/" type="text/html">
+<link rel="prefetch" href="posts/pond-brain/" type="text/html">
 </head>
 <body class="">
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -153,46 +153,46 @@ div.hsidebar, .hsidebar {
     <div class="content container" id="content">
     
 <div class="post">
-    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/deviant-chain/" class="u-url">Deviant Chain (2019)</a></h1>
-        <div class="metadata">
-            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-06T00:00:00-05:00" title="2024-03-06 00:00">2024-03-06 00:00</time></span>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>In 2019 I worked on a concert installation called <a href="https://stefanmaier.studio/deviant-chain-2019/"><em>Deviant Chain</em></a> with Stefan Maier and Alan Segal. Stefan, a composer, and Alan, a filmmaker, created a sort of art haunted house in which the audience moved from room to room in a former bank vault, encountering a series of short videos and sound works with themes of transhumanism and machine alterity. One of these dealt with the development of language and the human voice, and for this I created neural text-to-speech software for Stefan to gather sound material from. </p>
-<p>At this time, the <a href="https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/">WaveNet demo</a> was in the air. This was one of the first neural generative models to work well with raw audio, and the uncanny babbling of the unconditional speech model was an arresting artifact of the ever-weirder capabilities of statistical autoregressive models. It had a few problems though: no open source implementation, very expensive training process, and extremely slow inference process. After some research, I found an open implementation of Tacotron2 from NVIDIA, which was state of the art for text-to-speech at the time, and substituted a WaveGlow vocoder for the original WaveNet. It turned out to still be quite slow and expensive to train WaveGlow, but it could actually generate audio with close to real-time throughput, and including a full text-to-speech model added many dimensions of control. This was a tool you could iterate with. I found the TTS could be induced to babble by letting it run past the end of its predicted alignment the the text, at which point it would get confused and start jumping around. Finally, I trained a few models on voices from Mozilla's <a href="https://commonvoice.mozilla.org/en">CommonVoice</a> project to get a much wider range of voice sounds. I built in some extra features to the CLI and got the whole thing running on Stefan's computer using PyInstaller. </p>
-<p>I also developed a small glyph generator which was used in some of the videos -- this took in sounds, extracted features with some machine listening algorithms, and then mapped those features to a set of curves and strokes and stored them as 3D mesh files. 
-I traveled to Oslo to install Deviant Chain, setting up the video players and cueing system. I was pretty happy with the results -- it was genuinely spooky working on it with just a few of us in the empty bank basement at night.</p>
-<div class="video-wrapper">
-  <div class="video">
-    <iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-</div>
-    </div>
-    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/intelligent-instruments/" class="u-url">Intelligent Instruments Lab</a></h1>
-        <div class="metadata">
-            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-06T00:00:00-05:00" title="2024-03-06 00:00">2024-03-06 00:00</time></span>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Since 2021 I'm a PhD researcher in the <a href="https://iil.is/">Intelligent Instruments Lab</a>.</p>
-    </div>
-    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/pond-brain/" class="u-url">Pond Brain (2023)</a></h1>
+    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/pond-brain/" class="u-url">Pond Brain (2023)</a></h1>
         <div class="metadata">
             <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-06T00:00:00-05:00" title="2024-03-06 00:00">2024-03-06 00:00</time></span>
         </div>
     </header><div class="e-content entry-content">
     <p>In 2023 I worked on <em>Pond Brain</em>, a pair of installations by <a href="https://www.instagram.com/jennasutela/">Jenna Sutela</a> for Copenhagen Contemporary and the <a href="https://helsinkibiennaali.fi/en/artist/jenna-sutela/">Helsinki Biennial</a>.</p>
 <p>I trained real-time neural synthesis models with recordings of marine mammals and water sounds and built them into a feedback ecology with the sounds of musical instruments and stars in the Kepler exoplanet survey. Microphones in the room and attached to bronze water-singing bowls spun the sounds of visitors into the web of human, whale and celestial body.</p>
-<p><img href="https://evermade-helsinkibiennaali-phase2-website.s3.eu-north-1.amazonaws.com/wp-content/uploads/2023/06/07143954/Jenna-Sutela_Pond-Brain-2.jpg"></p>
+<!-- <img href=https://evermade-helsinkibiennaali-phase2-website.s3.eu-north-1.amazonaws.com/wp-content/uploads/2023/06/07143954/Jenna-Sutela_Pond-Brain-2.jpg></img> -->
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/intelligent-instruments/" class="u-url">Intelligent Instruments Lab</a></h1>
+        <div class="metadata">
+            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-04T00:00:00-05:00" title="2024-03-04 00:00">2024-03-04 00:00</time></span>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>Since 2021 I'm a PhD researcher in the <a href="https://iil.is/">Intelligent Instruments Lab</a>.</p>
     </div>
     </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/synthesthesia/" class="u-url">Synesthesia Music Visualizer Scenes</a></h1>
         <div class="metadata">
-            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-06T00:00:00-05:00" title="2024-03-06 00:00">2024-03-06 00:00</time></span>
+            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-03T00:00:00-05:00" title="2024-03-03 00:00">2024-03-03 00:00</time></span>
         </div>
     </header><div class="e-content entry-content">
     <p><a href="http://synesthesia.live/">Synesthesia</a> is VJ software for making audio-reactive visuals. It draws from the <a href="https://www.shadertoy.com/">Shadertoy</a> community, where everything is made with GLSL fragment shaders, but includes an easy way to add audio and video inputs and build simple MIDI-mappable control interfaces. Basically, everything a VJ needs to actually perform live with some shaders. The folks building Synesthesia seem super respectful of free-sharing ethos of Shadertoy -- they reached out to shader programmers like me and comissioned new works for Synesthesia, while keeping the actual shaders always hackable by users within the application. I wound up making a few fun video feedback and cellular-automata based scenes, and recently was goaded into using some of them to mess up the live stream from an algorave concert at the AIMC conference: </p>
 <!-- https://youtu.be/d0RMUqcbhmQ?t=8639 -->
 
 <iframe width="921" height="726" src="https://www.youtube.com/embed/d0RMUqcbhmQ?t=8639" title="AIMC 2023 Concert 3 – Algorave" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/deviant-chain/" class="u-url">Deviant Chain (2019)</a></h1>
+        <div class="metadata">
+            <span class="post-date dateline"><time class="published dt-published" datetime="2024-03-02T00:00:00-05:00" title="2024-03-02 00:00">2024-03-02 00:00</time></span>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>In 2019 I worked on a concert installation called <a href="https://stefanmaier.studio/deviant-chain-2019/"><em>Deviant Chain</em></a> with Stefan Maier and Alan Segal. Stefan, a composer, and Alan, a filmmaker, created a sort of art haunted house in which the audience moved from room to room in a former bank vault, encountering a series of short videos and sound works with themes of transhumanism and machine alterity. One of these dealt with the development of language and the human voice, and for this I created neural text-to-speech software for Stefan to gather sound material from. </p>
+<p>At this time, the <a href="https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/">WaveNet demo</a> was in the air. This was one of the first neural generative models to work well with raw audio, and the uncanny babbling of the unconditional speech model was an arresting artifact of the ever-weirder capabilities of statistical autoregressive models. It had a few problems though: no open source implementation, very expensive training process, and extremely slow inference process. After some research, I found an open implementation of Tacotron2 from NVIDIA, which was state of the art for text-to-speech at the time, and substituted a WaveGlow vocoder for the original WaveNet. It turned out to still be quite slow and expensive to train WaveGlow, but it could actually generate audio with close to real-time throughput, and including a full text-to-speech model added many dimensions of control. This was a tool you could iterate with. I found the TTS could be induced to babble by letting it run past the end of its predicted alignment the the text, at which point it would get confused and start jumping around. Finally, I trained a few models on voices from Mozilla's <a href="https://commonvoice.mozilla.org/en">CommonVoice</a> project to get a much wider range of voice sounds. I built in some extra features to the CLI and got the whole thing running on Stefan's computer using PyInstaller. </p>
+<p>I also developed a small glyph generator which was used in some of the videos -- this took in sounds, extracted features with some machine listening algorithms, and then mapped those features to a set of curves and strokes and stored them as 3D mesh files. 
+I traveled to Oslo to install Deviant Chain, setting up the video players and cueing system. I was pretty happy with the results -- it was genuinely spooky working on it with just a few of us in the empty bank basement at night.</p>
+<!-- <div class="video-wrapper">
+  <div class="video">
+    <iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div> -->
     </div>
     </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/reproducing-alpha-gan/" class="u-url">Reproducing α-GAN</a></h1>
         <div class="metadata">
