@@ -8,7 +8,7 @@
 .. description:
 .. type: text
 -->
-<style>
+<!-- <style>
   .video-wrapper {
    width: 100%;
    display: inline-block;
@@ -23,7 +23,7 @@
       position: absolute;
       top: 0; bottom: 0; right: 0; left: 0;
   }
-</style>
+</style> -->
 
 In 2019 I worked on a concert installation called [*Deviant Chain*](https://stefanmaier.studio/deviant-chain-2019/) with Stefan Maier and Alan Segal. Stefan, a composer, and Alan, a filmmaker, created a sort of art haunted house in which the audience moved from room to room in a former bank vault, encountering a series of short videos and sound works with themes of transhumanism and machine alterity. One of these dealt with the development of language and the human voice, and for this I created neural text-to-speech software for Stefan to gather sound material from. 
 
@@ -32,8 +32,8 @@ At this time, the [WaveNet demo](https://deepmind.google/discover/blog/wavenet-a
 I also developed a small glyph generator which was used in some of the videos -- this took in sounds, extracted features with some machine listening algorithms, and then mapped those features to a set of curves and strokes and stored them as 3D mesh files. 
 I traveled to Oslo to install Deviant Chain, setting up the video players and cueing system. I was pretty happy with the results -- it was genuinely spooky working on it with just a few of us in the empty bank basement at night.
 
-<div class="video-wrapper">
-  <div class="video">
-    <iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-</div>
+<!-- <div class="video-wrapper"> -->
+  <!-- <div class="video"> -->
+<iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <!-- </div> -->
+<!-- </div> -->
