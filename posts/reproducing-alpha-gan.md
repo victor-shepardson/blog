@@ -1,7 +1,7 @@
 <!--
 .. title: Reproducing α-GAN
 .. slug: reproducing-alpha-gan
-.. date: 2018-05-06 19:36:51 UTC-04:00
+.. date: 2018-05-06
 .. tags: machine learning, deep learning, computer vision, GAN, autoencoder, pytorch
 .. category:
 .. link:
