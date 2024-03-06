@@ -1,7 +1,7 @@
 <!--
 .. title: Synesthesia Music Visualizer Scenes
 .. slug: synthesthesia
-.. date: 2024-03-06
+.. date: 2024-03-03
 .. tags: visual, sonic, audiovisual, glsl, shadertoy, feedback
 .. category:
 .. link:
