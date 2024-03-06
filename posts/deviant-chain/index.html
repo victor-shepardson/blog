@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html prefix="
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>~/blog · Deviant Chain (2019) </title>
+<link href="../../assets/css/all.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+<meta content="#323" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://victor-shepardson.github.io/blog/posts/deviant-chain/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><style>
+body {
+  color: #ddd;
+  background-color: #323;
+}
+
+a {
+  color: #9ad;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #eee;
+}
+
+strong {
+  color: #dfdfdf;
+}
+
+code {
+  padding: .25em .33em .1em .33em;
+  font-size: 80%;
+  color: #000;
+  background-color: #b0a3b0;
+  border-radius: 2px;
+}
+
+pre {
+  background-color: #b0a3b0;
+}
+
+::-moz-selection { color: #000; background: #fff}
+::selection { color: #000; }
+
+blockquote {
+  color: #bbb;
+}
+
+.post-title a {
+  color: #9ad;
+  font-family: "Lato"
+}
+
+.post-date {
+  display: block;
+  margin-top: -0.75rem;
+  margin-bottom: 0.75rem;
+  color: #767;
+  font-size: 90%;
+}
+
+.pagination {
+  color: #767;
+}
+
+.pagination-item {
+  padding: .5em;
+  border: 1px solid #767;
+}
+
+.tags {
+  text-align: left;
+  border: 0px dotted #eee;
+}
+
+.tag {
+  display: inline-block;
+  padding-top: .05em;
+  padding-bottom: 0em;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 0px;
+  border: 0px solid #ddd;
+  background: #545;
+  border-radius: 2px;
+  font-size: smaller;
+}
+
+.tag:hover {
+  background-color: #323;
+}
+
+div.hsidebar, .hsidebar {
+  background-color: #212;
+}
+
+.sidebar-about h1 {
+  font-family: "Lato", serif;
+  font-size: 2.75rem;
+  color: #eee;
+}
+
+.sidebar-about p {
+  color: #878;
+  line-height: 1.33;
+  margin-bottom: 1em;
+  margin-top: 1em
+}
+
+.copyright{
+  color: #878
+}
+</style>
+<meta name="author" content="Victor Shepardson">
+<link rel="prev" href="../intelligent-instruments/" title="Intelligent Instruments Lab" type="text/html">
+</head>
+<body class="">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+    <div class="hsidebar">
+        <div class="container sidebar-sticky">
+            <div class="sidebar-about">
+              <h1>
+                <a href="https://victor-shepardson.github.io/blog/">
+                      <h1 id="brand"><a href="https://victor-shepardson.github.io/blog/" title="~/blog" rel="home">
+
+        <span id="blog-title">~/blog</span>
+    </a></h1>
+
+                </a>
+              </h1>
+                <p class="lead">&gt; infernal knotted dark humming sunlight</p>
+
+            </div>
+                <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="https://victor-shepardson.github.io">~</a>
+        <a class="sidebar-nav-item" href="../../archive.html">All Posts</a>
+        <a class="sidebar-nav-item" href="../../categories/">Tags</a>
+    
+    
+    </nav><footer id="footer"><span class="copyright">
+              Contents © 2024         <a href="mailto:victor.shepardson@gmail.com">Victor Shepardson</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            </span>
+            
+            
+        </footer>
+</div>
+    </div>
+
+    <div class="content container" id="content">
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><h1 class="post-title p-name"><a href="." class="u-url">Deviant Chain (2019)</a></h1>
+
+    <span class="post-date">
+      <time class="published dt-published" datetime="2024-03-06T00:00:00-05:00" itemprop="datePublished" title="2024-03-06 00:00">2024-03-06 00:00</time></span>
+
+    
+    
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <p>In 2019 I worked on a concert installation called <a href="https://stefanmaier.studio/deviant-chain-2019/"><em>Deviant Chain</em></a> with Stefan Maier and Alan Segal. Stefan, a composer, and Alan, a filmmaker, created a sort of art haunted house in which the audience moved from room to room in a former bank vault, encountering a series of short videos and sound works with themes of transhumanism and machine alterity. One of these dealt with the development of language and the human voice, and for this I created neural text-to-speech software for Stefan to gather sound material from. </p>
+<p>At this time, the <a href="https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/">WaveNet demo</a> was in the air. This was one of the first neural generative models to work well with raw audio, and the uncanny babbling of the unconditional speech model was an arresting artifact of the ever-weirder capabilities of statistical autoregressive models. It had a few problems though: no open source implementation, very expensive training process, and extremely slow inference process. After some research, I found an open implementation of Tacotron2 from NVIDIA, which was state of the art for text-to-speech at the time, and substituted a WaveGlow vocoder for the original WaveNet. It turned out to still be quite slow and expensive to train WaveGlow, but it could actually generate audio with close to real-time throughput, and including a full text-to-speech model added many dimensions of control. This was a tool you could iterate with. I found the TTS could be induced to babble by letting it run past the end of its predicted alignment the the text, at which point it would get confused and start jumping around. Finally, I trained a few models on voices from Mozilla's <a href="https://commonvoice.mozilla.org/en">CommonVoice</a> project to get a much wider range of voice sounds. I built in some extra features to the CLI and got the whole thing running on Stefan's computer using PyInstaller. </p>
+<p>I also developed a small glyph generator which was used in some of the videos -- this took in sounds, extracted features with some machine listening algorithms, and then mapped those features to a set of curves and strokes and stored them as 3D mesh files. 
+I traveled to Oslo to install Deviant Chain, setting up the video players and cueing system. I was pretty happy with the results -- it was genuinely spooky working on it with just a few of us in the empty bank basement at night.</p>
+<div class="video-wrapper">
+  <div class="video">
+    <iframe src="https://player.vimeo.com/video/431684120" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><div class="pager hidden-print pagination">
+
+            <span class="previous pagination-item older">
+                <a href="../intelligent-instruments/" rel="prev" title="Intelligent Instruments Lab">
+                Previous post
+                </a>
+            </span>
+
+
+            <span class="next pagination-item newer">
+Next post
+            </span>
+
+        </div>
+
+    </nav></aside></article>
+</div>
+
+    
+    
+        
+
+</body>
+</html>

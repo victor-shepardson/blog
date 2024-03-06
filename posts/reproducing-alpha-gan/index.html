@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html prefix="
-og: http://ogp.me/ns# article: http://ogp.me/ns/article#
-" vocab="http://ogp.me/ns" lang="en">
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
@@ -117,19 +116,7 @@ div.hsidebar, .hsidebar {
 </style>
 <meta name="author" content="Victor Shepardson">
 <link rel="prev" href="../bear-cult-and-hofstadterpillar/" title="Bear Cult and HOFSTADTERPILLAR" type="text/html">
-<meta property="og:site_name" content="~/blog">
-<meta property="og:title" content="Reproducing α-GAN">
-<meta property="og:url" content="https://victor-shepardson.github.io/blog/posts/reproducing-alpha-gan/">
-<meta property="og:description" content="I implemented Rosca, Mihaela, et al. &quot;Variational Approaches for Auto-Encoding
-Generative Adversarial Networks&quot; using Pytorch. It's a modular implementation -- plug in any torch modules as encoder, ge">
-<meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-05-06T19:36:51-04:00">
-<meta property="article:tag" content="autoencoder">
-<meta property="article:tag" content="computer vision">
-<meta property="article:tag" content="deep learning">
-<meta property="article:tag" content="GAN">
-<meta property="article:tag" content="machine learning">
-<meta property="article:tag" content="pytorch">
+<link rel="next" href="../synthesthesia/" title="Synesthesia Music Visualizer Scenes" type="text/html">
 </head>
 <body class="">
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -155,7 +142,7 @@ Generative Adversarial Networks&quot; using Pytorch. It's a modular implementati
     
     
     </nav><footer id="footer"><span class="copyright">
-              Contents © 2020         <a href="mailto:victor.shepardson@gmail.com">Victor Shepardson</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+              Contents © 2024         <a href="mailto:victor.shepardson@gmail.com">Victor Shepardson</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             </span>
             
             
@@ -167,14 +154,13 @@ Generative Adversarial Networks&quot; using Pytorch. It's a modular implementati
 <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><h1 class="post-title p-name"><a href="." class="u-url">Reproducing α-GAN</a></h1>
 
     <span class="post-date">
-      <time class="published dt-published" datetime="2018-05-06T19:36:51-04:00" itemprop="datePublished" title="2018-05-06 19:36">2018-05-06 19:36</time></span>
+      <time class="published dt-published" datetime="2018-05-06T00:00:00-04:00" itemprop="datePublished" title="2018-05-06 00:00">2018-05-06 00:00</time></span>
 
     
     
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <div>
-<!-- Generative Adversarial Networks or *GANs* are one the most exciting ideas to emerge from the deep learning boom.
+    <!-- Generative Adversarial Networks or *GANs* are one the most exciting ideas to emerge from the deep learning boom.
 
 Generally speaking, generation seems hard compared to classification. Think of images -- you can tell if an image has a bear in it. But drawing a convincing bear of your own is more difficult. To *classify* images as bear/non-bear is easy, to *generate* bears is hard. And indeed this is true for computers; feed a large neural network enough labeled images and it will be able to label new ones for you fairly well. But the best methods for generating original images will give you bizarre mutants or vague blurs.
 
@@ -188,7 +174,6 @@ Generative Adversarial Networks](https://arxiv.org/abs/1706.04987) -->
 <p>I implemented Rosca, Mihaela, et al. <a href="https://arxiv.org/abs/1706.04987">"Variational Approaches for Auto-Encoding
 Generative Adversarial Networks"</a> using Pytorch. It's a modular implementation -- plug in any torch modules as encoder, generator, discriminator and code discriminator.</p>
 <p>On <a href="https://github.com/victor-shepardson/alpha-GAN">GitHub</a></p>
-</div>
     </div>
     <aside class="postpromonav"><nav><p itemprop="keywords" class="tags">
             <span class="tag"><a class="p-category" href="../../categories/autoencoder/" rel="tag">autoencoder</a></span>
@@ -209,7 +194,9 @@ Generative Adversarial Networks"</a> using Pytorch. It's a modular implementatio
 
 
             <span class="next pagination-item newer">
+                <a href="../synthesthesia/" rel="next" title="Synesthesia Music Visualizer Scenes">
 Next post
+              </a>
             </span>
 
         </div>

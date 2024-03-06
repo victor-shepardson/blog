@@ -1,7 +1,7 @@
 <!--
 .. title: Video Synthesis With Convolutional Autoencoders
 .. slug: convnet-video-feedback
-.. date: 2017-01-09 18:26:25 UTC-05:00
+.. date: 2017-01-09
 .. tags: machine learning, deep learning, autoencoder, recurrent, video feedback, visual, openFrameworks, caffe, lorenzo torresani
 .. category:
 .. link:

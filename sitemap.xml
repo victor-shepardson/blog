@@ -7,194 +7,226 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://victor-shepardson.github.io/blog/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/archive.html</loc>
-  <lastmod>2020-07-03T16:58:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/</loc>
-  <lastmod>2018-05-07T01:05:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/aftereffects/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/animation/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/audiovisual/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/autoencoder/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/bear-cult/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/caffe/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/cat_posts/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/computer-vision/</loc>
-  <lastmod>2018-05-07T01:05:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/deep-learning/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/douglas-hofstadter/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/feedback/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/gan/</loc>
-  <lastmod>2018-05-07T01:05:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/generative/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/glsl/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/hofstadterpillar/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/jodie-mack/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/joseph-campbell/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/lorenzo-torresani/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/machine-learning/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/matlab/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/max/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/michael-casey/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/music/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/neuroscience/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/openframeworks/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/phasing/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/pytorch/</loc>
-  <lastmod>2018-05-07T01:05:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/recurrent/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/shader/</loc>
-  <lastmod>2018-04-24T03:12:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/categories/shadertoy/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/sonic/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/sonification/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/sound/</loc>
-  <lastmod>2018-04-24T16:28:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/steve-reich/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/supercollider/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/tidal/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/video-feedback/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/video/</loc>
-  <lastmod>2018-04-24T03:12:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/categories/visual/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/index-1.html</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/SIBA/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/abstract-concrete/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/bear-cult-and-hofstadterpillar/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/bendy/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/convnet-video-feedback/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/cortical-sonification/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/posts/deviant-chain/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/posts/intelligent-instruments/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/mixer-supercollider-tidal-music/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/posts/pond-brain/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/reproducing-alpha-gan/</loc>
-  <lastmod>2018-05-07T01:05:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://victor-shepardson.github.io/blog/posts/synthesthesia/</loc>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://victor-shepardson.github.io/blog/posts/video-feedback/</loc>
-  <lastmod>2018-04-22T22:43:00Z</lastmod>
+  <lastmod>2024-03-06T21:50:00Z</lastmod>
  </url>
 </urlset>
